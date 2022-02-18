@@ -50,6 +50,10 @@ ul{
     font-size: 18px;
 }
 
+.navbar ul :hover{
+    color: #3882F6;
+}
+
 /* header */
 header{
     background-color: #1f2937;
@@ -94,4 +98,61 @@ header .button{
     color: white;
     border: 0;
     border-radius: 7px;
+}
+
+/* info section */
+.info {
+    padding: 40px 50px 50px 50px;
+    height: 400px;
+}
+
+.info h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size:36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.info .container{
+    display: flex;
+    border: 2px solid black;
+}
+
+.subcontainer .box{
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
+
+.subcontainer p {
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+/* quote section */
+.quote{
+    background: #E5E7EB;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.quote .words{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote .author{
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* call to action section */
+.call{
+    background: #3882F6;
 }
